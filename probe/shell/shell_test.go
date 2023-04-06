@@ -107,6 +107,7 @@ func TestShell(t *testing.T) {
 	assert.NotContains(t, message, "ExitCode(null)")
 }
 
+
 func TestEnv(t *testing.T) {
 	s := &Shell{
 		DefaultProbe: base.DefaultProbe{ProbeName: "dummy shell"},
