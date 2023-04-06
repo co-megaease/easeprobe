@@ -101,6 +101,7 @@ func (tc *TextChecker) CheckRegExp(Output string) error {
 	return nil
 }
 
+
 // CheckEmpty return "empty" if the string is empty
 func CheckEmpty(s string) string {
 	if len(strings.TrimSpace(s)) <= 0 {
